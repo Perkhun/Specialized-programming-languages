@@ -4,7 +4,7 @@ while True:
     try:
         float(data)
         return True
-    except ValueError:
+    except ValueError: # Error handling ValueError to check numbers
         return False
 
 # Prompt the user to enter the first number
@@ -35,26 +35,34 @@ while True:
         print("Invalid operator. Please enter a valid operator from the list (+, -, *, /).")
 
 # Perform calculations based on the operator which user entered
-  if operator == '+':
-    result = number1 + number2
-  elif operator == '-':
-    result = number1 - number2
-  elif operator == '*':
-    result = number1 * number2
-  elif operator == '/':
+# Code that may throw exceptions, especially division by 0
+  try:
+    if operator == '+':
+     result = number1 + number2
+    elif operator == '-':
+      result = number1 - number2
+    elif operator == '*':
+     result = number1 * number2
+    elif operator == '/':
     # Check for division by zero
-    if number2 == 0:
-        result = "Error: Division by zero is not allowed"
-    else:
+  
+       if number2 == 0:
+        # Generation of an exception, we create an instance of an exception of type ZeroDivisionError
+        raise ZeroDivisionError("Error: Division by zero is not allowed")
+       else:
                 result = number1 / number2
-   
 
+                
 # Display the result
-  print("Result:", result)
+    print("Result:", result)
 
-#Ask user if he wants to perform one more calculation
+# Exception handling
+  except ZeroDivisionError as e: # The variable e contains information about the exception
+        print(e)
+
+# Ask user if he wants to perform one more calculation
   another_calculation = input("Do you want to perform another calculation? (yes/no): ")
   if another_calculation.lower() != 'yes':
-        #exit if user doesn't want one more calculation
+        # Exit if user doesn't want one more calculation
         break
  
