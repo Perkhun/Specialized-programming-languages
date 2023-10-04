@@ -1,4 +1,5 @@
-from calculator import Calculator
+#from calculator import Calculator
+from calculator import ScientificCalculator
 
 if __name__ == "__main__":
     language_choice = input("Choose language (English/Ukrainian): ").strip().lower()
@@ -13,5 +14,5 @@ if __name__ == "__main__":
         print("Invalid choice. Using English as default.")
         import en_localization as localization
 
-    calculator = Calculator(localization)
+    calculator = ScientificCalculator(localization)
     calculator.run_calculator()

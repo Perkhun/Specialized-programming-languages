@@ -94,3 +94,15 @@ class Calculator:
             another_calculation = self.get_continue_input()
             if another_calculation != self.localization.CONTINUE_CALCULATION:
                 break
+
+class ScientificCalculator(Calculator):
+    def __init__(self, localization):
+        super().__init__(localization)
+
+    def calculate_square_root(self, number):
+        result = math.sqrt(number)
+        return result
+
+    def calculate_power(self, base, exponent):
+        result = base ** exponent
+        return result
