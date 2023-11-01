@@ -16,7 +16,7 @@ def generate_colored_ascii_art(text, letters, width, height, alignment="left"):
         real_letter_width = width // len(text)
     for line in range(5):  # Iterate through each line of ASCII art
         art_line = ""
-        for char in text:  # Iterate through each letter in the input text
+        for char in text:  # Iterate through each letter in the input text 
             if char in letters:
                 letter = letters[char]
                 color_code = (ord(char) % len(colors))  # Character code % number of colors (from 0 to 5 in the array)
@@ -31,7 +31,7 @@ def generate_colored_ascii_art(text, letters, width, height, alignment="left"):
             right_padding = width - len(art_line) - left_padding
             centered_line = " " * left_padding + art_line + " " * right_padding
             ascii_art.append(centered_line)
-        elif alignment == "right":  # Right alignment
+        elif alignment == "right":  # Right alingment
             right_padding = width - len(art_line)
             right_aligned_line = " " * right_padding + art_line
             ascii_art.append(right_aligned_line)
