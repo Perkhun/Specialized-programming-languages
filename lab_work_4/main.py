@@ -1,3 +1,4 @@
+from tkinter import filedialog, Tk  # Import the module for a file dialog to choose a file
 def generate_colored_ascii_art(text, letters, width, height, alignment="left"):
     colors = {  # ANSI color definitions
         "R": "\x1b[31m",  # Red
@@ -65,13 +66,14 @@ def get_alignment_choice():
         else:
             print("Please select one of the options (1/2/3).")
 
-def save_ascii_art_to_file(ascii_art, filename):
+def save_ascii_art(ascii_art, filename):
     try:
-        with open(filename, 'w') as file:
+        # Save the ASCII art to the specified file
+        with open(filename, "w") as file:
             file.write(ascii_art)
-        print(f"ASCII art has been saved to the file {filename}")
-    except IOError as e:
-        print(f"Error while saving the file: {e}")
+        print(f"ASCII art saved to {filename}")  # Notify about successful file save
+    except Exception as e:
+        print(f"Error saving ASCII art: {e}")  # Print an error message if there's an issue with saving
 
 def main():
     letters = {
@@ -149,9 +151,17 @@ def main():
     print(ascii_art)
     save_to_file = input("Save ASCII art to a file? (Yes/No): ").strip().lower()
 
-    if save_to_file == "yes":
-        filename = input("Enter the file name for saving (e.g., art.txt): ")
-        save_ascii_art_to_file(ascii_art, filename)
+ # Generate ASCII art
+    ascii_art_result = generate_colored_ascii_art(user_input, letters, width, height, alignment)
+
+        
+    root = Tk()
+    root.withdraw()  # Hide the main Tkinter window
+
+        # Ask the user for a path to save the ASCII art
+    file_path = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[("Text files", "*.txt")])
+    if file_path:
+           save_ascii_art(ascii_art_result, file_path)  # Save the ASCII art to the specified file
 
 if __name__ == "__main__":
     main()

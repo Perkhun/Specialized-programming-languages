@@ -1,0 +1,5 @@
+            [33m H   H [0m[37m EEEE [0m[37m L    [0m[37m L    [0m[33m  O  [0m             
+            [33m H   H [0m[37m E    [0m[37m L    [0m[37m L    [0m[33m O O [0m             
+            [33m HHHHH [0m[37m EEE  [0m[37m L    [0m[37m L    [0m[33m O O [0m             
+            [33m H   H [0m[37m E    [0m[37m L    [0m[37m L    [0m[33m O O [0m             
+            [33m H   H [0m[37m EEEE [0m[37m LLLL [0m[37m LLLL [0m[33m  O  [0m             

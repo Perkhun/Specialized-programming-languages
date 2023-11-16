@@ -51,7 +51,7 @@ def save_ascii_art(ascii_art, filename):
     except Exception as e:
         print(f"Error saving ASCII art: {e}")  # Print an error message if there's an issue with saving
 
-if __name__ == "__main__":
+def main():
     available_fonts = list_available_fonts()
     
     if not available_fonts:
@@ -117,3 +117,6 @@ if __name__ == "__main__":
         file_path = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[("Text files", "*.txt")])
         if file_path:
             save_ascii_art(ascii_art_result, file_path)  # Save the ASCII art to the specified file
+            
+if __name__ == "__main__":
+    main()
