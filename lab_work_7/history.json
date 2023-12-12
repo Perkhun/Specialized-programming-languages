@@ -1,0 +1,170 @@
+[
+    {
+        "timestamp": "2023-12-06 01:43:30",
+        "user_input": "2023-01-01"
+    },
+    {
+        "timestamp": "2023-12-06 01:43:30",
+        "user_input": "2023-01-01 12:34:56"
+    },
+    {
+        "timestamp": "2023-12-06 01:43:30",
+        "user_input": "test@example.com"
+    },
+    {
+        "timestamp": "2023-12-06 01:43:30",
+        "user_input": "John Doe"
+    },
+    {
+        "timestamp": "2023-12-06 01:43:30",
+        "user_input": "(123) 456-7890"
+    },
+    {
+        "timestamp": "2023-12-06 01:43:30",
+        "user_input": "http://example.com"
+    },
+    {
+        "timestamp": "2023-12-06 01:45:01",
+        "user_input": "2023-01-01"
+    },
+    {
+        "timestamp": "2023-12-06 01:45:01",
+        "user_input": "2023-01-01 12:34:56"
+    },
+    {
+        "timestamp": "2023-12-06 01:45:01",
+        "user_input": "test@example.com"
+    },
+    {
+        "timestamp": "2023-12-06 01:45:01",
+        "user_input": "John Doe"
+    },
+    {
+        "timestamp": "2023-12-06 01:45:01",
+        "user_input": "(123) 456-7890"
+    },
+    {
+        "timestamp": "2023-12-06 01:45:01",
+        "user_input": "http://example.com"
+    },
+    {
+        "timestamp": "2023-12-06 01:45:25",
+        "user_input": "2023-01-01"
+    },
+    {
+        "timestamp": "2023-12-06 01:45:25",
+        "user_input": "2023-01-01 12:34:56"
+    },
+    {
+        "timestamp": "2023-12-06 01:45:25",
+        "user_input": "test@example.com"
+    },
+    {
+        "timestamp": "2023-12-06 01:45:25",
+        "user_input": "John Doe"
+    },
+    {
+        "timestamp": "2023-12-06 01:45:25",
+        "user_input": "(123) 456-7890"
+    },
+    {
+        "timestamp": "2023-12-06 01:45:25",
+        "user_input": "http://example.com"
+    },
+    {
+        "timestamp": "2023-12-06 01:57:58",
+        "user_input": "11-12-2001"
+    },
+    {
+        "timestamp": "2023-12-06 02:00:36",
+        "user_input": "2023-01-01"
+    },
+    {
+        "timestamp": "2023-12-06 02:00:36",
+        "user_input": "2023-01-01 12:34:56"
+    },
+    {
+        "timestamp": "2023-12-06 02:00:36",
+        "user_input": "test@example.com"
+    },
+    {
+        "timestamp": "2023-12-06 02:00:36",
+        "user_input": "John Doe"
+    },
+    {
+        "timestamp": "2023-12-06 02:00:36",
+        "user_input": "(123) 456-7890"
+    },
+    {
+        "timestamp": "2023-12-06 02:00:36",
+        "user_input": "http://example.com"
+    },
+    {
+        "timestamp": "2023-12-06 11:16:04",
+        "user_input": "ira@gmailcom"
+    },
+    {
+        "timestamp": "2023-12-06 11:16:10",
+        "user_input": "ira@gmail.com"
+    },
+    {
+        "timestamp": "2023-12-06 11:16:31",
+        "user_input": "2023-01-01"
+    },
+    {
+        "timestamp": "2023-12-06 11:16:31",
+        "user_input": "2023-01-01 12:34:56"
+    },
+    {
+        "timestamp": "2023-12-06 11:16:31",
+        "user_input": "test@example.com"
+    },
+    {
+        "timestamp": "2023-12-06 11:16:31",
+        "user_input": "John Doe"
+    },
+    {
+        "timestamp": "2023-12-06 11:16:31",
+        "user_input": "(123) 456-7890"
+    },
+    {
+        "timestamp": "2023-12-06 11:16:31",
+        "user_input": "http://example.com"
+    },
+    {
+        "timestamp": "2023-12-06 12:01:37",
+        "user_input": "2023-01-01"
+    },
+    {
+        "timestamp": "2023-12-06 12:01:37",
+        "user_input": "2023-01-01 12:34:56"
+    },
+    {
+        "timestamp": "2023-12-06 12:01:37",
+        "user_input": "test@example.com"
+    },
+    {
+        "timestamp": "2023-12-06 12:01:37",
+        "user_input": "John Doe"
+    },
+    {
+        "timestamp": "2023-12-06 12:01:37",
+        "user_input": "(123) 456-7890"
+    },
+    {
+        "timestamp": "2023-12-06 12:01:37",
+        "user_input": "http://example.com"
+    },
+    {
+        "timestamp": "2023-12-06 14:14:10",
+        "user_input": "(096) 456-4567"
+    },
+    {
+        "timestamp": "2023-12-06 14:40:23",
+        "user_input": "2023-10-20"
+    },
+    {
+        "timestamp": "2023-12-06 14:40:35",
+        "user_input": "10-20-2023"
+    }
+]
