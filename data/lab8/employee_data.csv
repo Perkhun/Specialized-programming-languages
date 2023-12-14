@@ -1,0 +1,11 @@
+id,name,email,age,gender,salary,position,birth_date,phone,department,education,experience
+1,John Doe,john@example.com,25,M,50000,Software Engineer,1998-03-15,123-456-7890,IT,Bachelor's,2
+2,Jane Smith,jane@example.com,30,F,60000,Data Scientist,1992-08-22,987-654-3210,Research,Master's,5
+3,Robert Johnson,robert@example.com,28,M,55000,Marketing Manager,1994-05-10,555-123-4567,Marketing,Bachelor's,7
+4,Alice Brown,alice@example.com,35,F,70000,Product Manager,1987-11-28,333-999-8888,Product,Bachelor's,10
+5,Charlie White,charlie@example.com,22,M,48000,Intern,2000-06-02,777-444-5555,IT,Bachelor's,1
+6,Emma Davis,emma@example.com,27,F,52000,UX Designer,1995-09-17,111-222-3333,Design,Bachelor's,3
+7,Michael Lee,michael@example.com,32,M,62000,Software Architect,1989-01-09,666-777-8888,IT,Master's,8
+8,Olivia Wilson,olivia@example.com,29,F,58000,Data Analyst,1993-04-25,444-555-6666,Research,Bachelor's,4
+9,David Harris,david@example.com,31,M,65000,Project Manager,1991-07-12,222-333-4444,Management,Master's,6
+10,Emily Miller,emily@example.com,26,F,51000,UI Developer,1996-12-03,888-999-0000,Design,Bachelor's,2

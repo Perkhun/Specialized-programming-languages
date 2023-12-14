@@ -1,83 +1,102 @@
-import lab_work_1.main
-import lab_work_2.main
-import lab_work_3.main
-import lab_work_4.main
-import lab_5.main
-import lab_work_6.test_calculator
+
+"""Runner in facade pattern to run all subsystems"""
 import unittest
-import lab_work_7.main
-import lab_work_8.main
+from classes.lab1.main import main as lab1_main
+from classes.lab2.main import main as lab2_main
+from classes.lab3.main import main as lab3_main
+from classes.lab4.main import main as lab4_main
+from classes.lab5.main import main as lab5_main
+import classes.lab6.test_calculator
+from classes.lab7.main import main as lab7_main
+from classes.lab8.main import main as lab8_main
+from logs.logger import setup_logger, logger
+from shared.console_input import UserInputHandler
 
 class LabFacade:
+    """Class for facade pattern"""
     @staticmethod
     def run_lab_1():
-        lab_work_1.main.main()
+        """
+        Run lab 2.
+        """
+        logger.info("Running lab 1")
+        lab1_main()
 
     @staticmethod
     def run_lab_2():
-        lab_work_2.main.main()
+        """
+        Run lab 2.
+        """
+        logger.info("Running lab 2")
+        lab2_main()
 
     @staticmethod
     def run_lab_3():
-        lab_work_3.main.main()
+        """
+        Run lab 3.
+        """
+        logger.info("Running lab 3")
+        lab3_main()
 
     @staticmethod
     def run_lab_4():
-        lab_work_4.main.main()
+        """
+        Run lab 4.
+        """
+        logger.info("Running lab 4")
+        lab4_main()
 
     @staticmethod
     def run_lab_5():
-        lab_5.main.main()
+        """
+        Run lab 5.
+        """
+        logger.info("Running lab 5")
+        lab5_main()
 
     @staticmethod
     def run_lab_6():
-        unittest.main(lab_work_6.test_calculator)
+        """
+        Run lab 6.
+        """
+        unittest.main(classes.lab6.test_calculator)
 
     @staticmethod
     def run_lab_7():
-        lab_work_7.main.main()
+        """
+        Run lab 7.
+        """
+        logger.info("Running lab 7")
+        lab7_main()
 
     @staticmethod
     def run_lab_8():
-        lab_work_8.main.main()    
-
-
-
-def get_integer_input(prompt):
-    while True:
-        try:
-            user_input = input(prompt)
-            return int(user_input)
-        except ValueError:
-            print("Please enter a valid integer.")
-
-def get_yes_no_input(prompt):
-    while True:
-        user_input = input(prompt).lower()
-        if user_input == 'yes' or user_input == 'no':
-            return user_input
-        else:
-            print("Please enter 'yes' or 'no'")
+        """
+        Run lab 8.
+        """
+        logger.info("Running lab 8")
+        lab8_main()
 
 if __name__ == "__main__":
-    def choose_lab():
-        while True:
-            lab_number = get_integer_input("Choose the lab number (1-8): ")
-            if 0 <= lab_number <= 8:
-                return lab_number
-            else:
-                print("Entered number does not correspond to any lab work (0-8)")
+    setup_logger()
 
     lab_facade = LabFacade()
 
     while True:
-        lab_number = choose_lab()
+        lab_number = 0
+
+        while True:
+            lab_number = UserInputHandler.get_integer_input("Choose the lab number (1-8): ")
+            if 0 <= lab_number <= 8:
+                break
+            else:
+                print("Entered number does not correspond to any lab work (0-8)")
 
         if lab_number == 0:
             break
         else:
             getattr(lab_facade, f'run_lab_{lab_number}')()
 
-        another_lab = get_yes_no_input("Do you want to perform another lab? (yes/no): ")
+        another_lab = UserInputHandler.get_yes_no_input("Do you want to perform another lab? (yes/no): ")
         if another_lab == 'no':
             break

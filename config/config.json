@@ -1,0 +1,88 @@
+{
+    "lab1": {
+        "settings": {
+            "decimal_places": 2,
+            "max_history_entries": 10
+        },
+        "messages": {
+            "division_by_zero": "Error: Division by zero is not allowed",
+            "negative_square_root": "Error: Cannot calculate square root of a negative number",
+            "operator_input_error": "Invalid operator. Please enter a valid operator from the list (+, -, *, /, ^, √, %)",
+            "general_error_message": "Calculation failed."
+        },
+        "prompts": {
+            "number_prompt": "Enter the first number: ",
+            "operator_prompt": "Enter the operator (+, -, *, /, ^, √, %): ",
+            "decimal_places_prompt": "Enter the number of decimal places: ",
+            "another_calculation_prompt": "Do you want to perform another calculation? (yes/no): "
+        }
+    },
+    "lab2": {
+        "calculator": {
+            "default_decimal_places": 2,
+            "default_language": "english",
+            "memory_limit": 100
+        }
+    },
+    "lab3": {
+        "ascii_art_generator": {
+            "default_font": "standard",
+            "default_color": "white",
+            "available_colors": ["red", "green", "blue", "yellow", "white"]
+        },
+        "user_interface": {
+            "special_symbols": {
+                "1": "@",
+                "2": "#",
+                "3": "*"
+            }
+        },
+        "general": {
+            "default_decimal_places": 2,
+            "default_language": "english",
+            "memory_limit": 100
+        }
+    },
+    "lab4": {
+        "user_input": {
+            "messages": {
+                "input_prompt": "Enter a word or phrase to convert to ASCII art: ",
+                "width_prompt": "Enter the width of the ASCII art: ",
+                "height_prompt": "Enter the height of the ASCII art: ",
+                "alignment_prompt": "Choose alignment option:\n1. Left alignment\n2. Center alignment\n3. Right alignment\nYour choice (1/2/3): ",
+                "save_prompt": "Save ASCII art to a file? (Yes/No): ",
+                "save_path_prompt": "Choose a file to save the ASCII art: "
+            }
+        },
+        "general": {
+            "default_save_directory": "data/lab4",
+            "default_file_name": "art"
+    },
+    "lab6": {
+        "testing": {
+            "test_suite_name": "CalculatorTestSuite",
+            "test_run_message": "Running tests...",
+            "test_passed_message": "All tests passed successfully.",
+            "test_failed_message": "Some tests failed. Check the test results."
+        },
+        "calculator": {
+            "default_calculator": "simple",
+            "default_localization": "english",
+            "addition_value": "+",
+            "subtraction_value": "-",
+            "multiplication_value": "*",
+            "division_value": "/"
+        },
+        "files_and_directories": {
+            "default_save_directory": "data/lab2",
+            "default_file_name": "calculator_result"
+        },
+        "calculation_values": {
+            "default_addition_value": 0.0,
+            "default_subtraction_value": 0.0,
+            "default_multiplication_value": 1.0,
+            "default_division_value": 1.0
+        }
+    }
+  }
+}

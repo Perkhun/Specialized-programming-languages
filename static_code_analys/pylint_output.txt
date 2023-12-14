@@ -1,0 +1,195 @@
+************* Module runner
+runner.py:100:0: C0301: Line too long (105/100) (line-too-long)
+runner.py:86:8: C0103: Constant name "lab_number" doesn't conform to UPPER_CASE naming style (invalid-name)
+runner.py:90:12: R1723: Unnecessary "else" after "break", remove the "else" and de-indent the code inside it (no-else-break)
+runner.py:95:8: R1723: Unnecessary "else" after "break", remove the "else" and de-indent the code inside it (no-else-break)
+************* Module shared.file_operations
+shared\file_operations.py:9:0: C0301: Line too long (109/100) (line-too-long)
+shared\file_operations.py:33:0: C0301: Line too long (117/100) (line-too-long)
+shared\file_operations.py:9:75: W0613: Unused argument 'file_format' (unused-argument)
+shared\file_operations.py:4:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+************* Module shared.input_validator
+shared\input_validator.py:7:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+************* Module shared.runnable
+shared\runnable.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+shared\runnable.py:3:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+************* Module shared.user_input_handler
+shared\user_input_handler.py:37:12: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+shared\user_input_handler.py:2:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+************* Module classes.lab1.calculator
+classes\lab1\calculator.py:34:0: C0304: Final newline missing (missing-final-newline)
+classes\lab1\calculator.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+classes\lab1\calculator.py:9:4: C0116: Missing function or method docstring (missing-function-docstring)
+classes\lab1\calculator.py:18:37: W0613: Unused argument 'expression' (unused-argument)
+************* Module classes.lab1.input_validator
+classes\lab1\input_validator.py:7:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+************* Module classes.lab1.math_operations
+classes\lab1\math_operations.py:67:0: C0304: Final newline missing (missing-final-newline)
+classes\lab1\math_operations.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+classes\lab1\math_operations.py:4:0: W0105: String statement has no effect (pointless-string-statement)
+classes\lab1\math_operations.py:63:15: W0718: Catching too general exception Exception (broad-exception-caught)
+classes\lab1\math_operations.py:20:4: R0912: Too many branches (13/12) (too-many-branches)
+classes\lab1\math_operations.py:12:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+************* Module classes.lab2.en_localization
+classes\lab2\en_localization.py:12:0: C0301: Line too long (110/100) (line-too-long)
+classes\lab2\en_localization.py:6:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+************* Module classes.lab2.localization
+classes\lab2\localization.py:4:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+************* Module classes.lab2.main
+classes\lab2\main.py:16:0: C0304: Final newline missing (missing-final-newline)
+classes\lab2\main.py:9:0: C0116: Missing function or method docstring (missing-function-docstring)
+classes\lab2\main.py:12:4: W0612: Unused variable 'app' (unused-variable)
+classes\lab2\main.py:7:0: C0411: standard import "import tkinter as tk" should be placed before "from logs.logger import setup_logger, logger" (wrong-import-order)
+classes\lab2\main.py:5:0: W0611: Unused logger imported from logs.logger (unused-import)
+************* Module classes.lab2.scientific_calculator
+classes\lab2\scientific_calculator.py:11:4: W0246: Useless parent or super() delegation in method '__init__' (useless-parent-delegation)
+************* Module classes.lab2.ua_localization
+classes\lab2\ua_localization.py:6:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+************* Module classes.lab3.ascii_art_generator
+classes\lab3\ascii_art_generator.py:10:0: C0301: Line too long (102/100) (line-too-long)
+classes\lab3\ascii_art_generator.py:57:0: C0304: Final newline missing (missing-final-newline)
+classes\lab3\ascii_art_generator.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+classes\lab3\ascii_art_generator.py:56:15: W0718: Catching too general exception Exception (broad-exception-caught)
+************* Module classes.lab3.main
+classes\lab3\main.py:36:8: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+classes\lab3\main.py:41:8: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+classes\lab3\main.py:62:8: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+classes\lab3\main.py:69:8: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+classes\lab3\main.py:75:8: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+classes\lab3\main.py:102:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+classes\lab3\main.py:105:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+************* Module classes.lab4.ascii_art_generator
+classes\lab4\ascii_art_generator.py:33:4: R0914: Too many local variables (20/15) (too-many-locals)
+classes\lab4\ascii_art_generator.py:94:16: W0612: Unused variable 'i' (unused-variable)
+classes\lab4\ascii_art_generator.py:6:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+************* Module classes.lab4.main
+classes\lab4\main.py:81:0: C0301: Line too long (102/100) (line-too-long)
+classes\lab4\main.py:88:4: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+classes\lab4\main.py:90:4: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+classes\lab4\main.py:92:4: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+classes\lab4\main.py:108:4: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+classes\lab4\main.py:121:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+classes\lab4\main.py:124:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+************* Module classes.lab5.figures.cube
+classes\lab5\figures\cube.py:70:0: C0301: Line too long (101/100) (line-too-long)
+classes\lab5\figures\cube.py:83:0: C0301: Line too long (128/100) (line-too-long)
+classes\lab5\figures\cube.py:98:0: C0301: Line too long (117/100) (line-too-long)
+classes\lab5\figures\cube.py:99:0: C0301: Line too long (128/100) (line-too-long)
+classes\lab5\figures\cube.py:100:0: C0301: Line too long (108/100) (line-too-long)
+classes\lab5\figures\cube.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+classes\lab5\figures\cube.py:2:0: W0105: String statement has no effect (pointless-string-statement)
+classes\lab5\figures\cube.py:51:12: W0612: Unused variable 'row' (unused-variable)
+classes\lab5\figures\cube.py:54:16: W0612: Unused variable 'col' (unused-variable)
+classes\lab5\figures\cube.py:97:20: R0916: Too many boolean expressions in if statement (7/5) (too-many-boolean-expressions)
+classes\lab5\figures\cube.py:97:21: R1714: Consider merging these comparisons with 'in' by using 'row in (0, modified_length - 1)'. Use a set instead if elements are hashable. (consider-using-in)
+classes\lab5\figures\cube.py:98:24: R1714: Consider merging these comparisons with 'in' by using 'col in (0, modified_length - 1)'. Use a set instead if elements are hashable. (consider-using-in)
+classes\lab5\figures\cube.py:59:4: R0912: Too many branches (17/12) (too-many-branches)
+classes\lab5\figures\cube.py:24:8: W0238: Unused private member `Cube.__offset` (unused-private-member)
+************* Module classes.lab5.figures.figure3d
+classes\lab5\figures\figure3d.py:32:44: C0303: Trailing whitespace (trailing-whitespace)
+classes\lab5\figures\figure3d.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+classes\lab5\figures\figure3d.py:5:0: W0105: String statement has no effect (pointless-string-statement)
+classes\lab5\figures\figure3d.py:8:0: C0115: Missing class docstring (missing-class-docstring)
+classes\lab5\figures\figure3d.py:39:8: W0107: Unnecessary pass statement (unnecessary-pass)
+classes\lab5\figures\figure3d.py:52:8: W0107: Unnecessary pass statement (unnecessary-pass)
+classes\lab5\figures\figure3d.py:3:0: C0411: standard import "from enum import Enum" should be placed before "from colorama import Fore" (wrong-import-order)
+************* Module classes.lab7.api_handler
+classes\lab7\api_handler.py:22:23: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+classes\lab7\api_handler.py:42:23: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+************* Module classes.lab7.data_saver
+classes\lab7\data_saver.py:31:0: C0301: Line too long (107/100) (line-too-long)
+classes\lab7\data_saver.py:36:0: C0301: Line too long (107/100) (line-too-long)
+classes\lab7\data_saver.py:48:0: C0301: Line too long (111/100) (line-too-long)
+classes\lab7\data_saver.py:54:0: C0301: Line too long (105/100) (line-too-long)
+classes\lab7\data_saver.py:60:0: C0301: Line too long (107/100) (line-too-long)
+classes\lab7\data_saver.py:66:0: C0301: Line too long (105/100) (line-too-long)
+classes\lab7\data_saver.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+classes\lab7\data_saver.py:70:15: W0718: Catching too general exception Exception (broad-exception-caught)
+classes\lab7\data_saver.py:98:15: W0718: Catching too general exception Exception (broad-exception-caught)
+************* Module classes.lab7.display_handler
+classes\lab7\display_handler.py:81:0: C0301: Line too long (134/100) (line-too-long)
+classes\lab7\display_handler.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+classes\lab7\display_handler.py:59:15: W0718: Catching too general exception Exception (broad-exception-caught)
+classes\lab7\display_handler.py:71:43: W0108: Lambda may not be necessary (unnecessary-lambda)
+classes\lab7\display_handler.py:71:53: E1120: No value for argument 'last' in method call (no-value-for-parameter)
+classes\lab7\display_handler.py:111:15: W0718: Catching too general exception Exception (broad-exception-caught)
+************* Module classes.lab7.file_operations
+classes\lab7\file_operations.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+classes\lab7\file_operations.py:75:15: W0718: Catching too general exception Exception (broad-exception-caught)
+************* Module classes.lab7.input_parser
+classes\lab7\input_parser.py:11:0: C0301: Line too long (104/100) (line-too-long)
+classes\lab7\input_parser.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+classes\lab7\input_parser.py:5:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+************* Module classes.lab7.message_box_wrapper
+classes\lab7\message_box_wrapper.py:6:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+************* Module classes.lab7.tests
+classes\lab7\tests.py:48:0: C0301: Line too long (107/100) (line-too-long)
+classes\lab7\tests.py:75:0: C0301: Line too long (113/100) (line-too-long)
+classes\lab7\tests.py:195:0: C0301: Line too long (133/100) (line-too-long)
+classes\lab7\tests.py:222:0: C0301: Line too long (117/100) (line-too-long)
+classes\lab7\tests.py:51:4: C0116: Missing function or method docstring (missing-function-docstring)
+classes\lab7\tests.py:65:4: C0116: Missing function or method docstring (missing-function-docstring)
+classes\lab7\tests.py:75:61: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+classes\lab7\tests.py:77:4: C0116: Missing function or method docstring (missing-function-docstring)
+classes\lab7\tests.py:93:4: C0116: Missing function or method docstring (missing-function-docstring)
+classes\lab7\tests.py:109:4: C0116: Missing function or method docstring (missing-function-docstring)
+classes\lab7\tests.py:125:4: C0116: Missing function or method docstring (missing-function-docstring)
+classes\lab7\tests.py:141:4: C0116: Missing function or method docstring (missing-function-docstring)
+classes\lab7\tests.py:145:4: C0116: Missing function or method docstring (missing-function-docstring)
+classes\lab7\tests.py:149:4: C0116: Missing function or method docstring (missing-function-docstring)
+classes\lab7\tests.py:153:4: C0116: Missing function or method docstring (missing-function-docstring)
+classes\lab7\tests.py:157:4: C0116: Missing function or method docstring (missing-function-docstring)
+classes\lab7\tests.py:161:4: C0116: Missing function or method docstring (missing-function-docstring)
+classes\lab7\tests.py:166:4: C0116: Missing function or method docstring (missing-function-docstring)
+classes\lab7\tests.py:185:8: E1101: Class 'FileOperations' has no 'save_representation' member (no-member)
+classes\lab7\tests.py:197:4: C0116: Missing function or method docstring (missing-function-docstring)
+classes\lab7\tests.py:6:0: W0611: Unused mock_open imported from unittest.mock (unused-import)
+classes\lab7\tests.py:9:0: W0611: Unused MessageBoxWrapper imported from classes.lab7.message_box_wrapper (unused-import)
+************* Module classes.lab8.data_loader
+classes\lab8\data_loader.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+classes\lab8\data_loader.py:3:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+************* Module classes.lab8.file_exporter
+classes\lab8\file_exporter.py:17:0: C0301: Line too long (109/100) (line-too-long)
+classes\lab8\file_exporter.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+classes\lab8\file_exporter.py:4:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+************* Module classes.lab8.main
+classes\lab8\main.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+classes\lab8\main.py:6:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+************* Module classes.lab8.plot_generator
+classes\lab8\plot_generator.py:35:0: C0301: Line too long (104/100) (line-too-long)
+classes\lab8\plot_generator.py:122:0: C0301: Line too long (104/100) (line-too-long)
+classes\lab8\plot_generator.py:131:0: C0301: Line too long (108/100) (line-too-long)
+classes\lab8\plot_generator.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+classes\lab8\plot_generator.py:32:4: C0116: Missing function or method docstring (missing-function-docstring)
+classes\lab8\plot_generator.py:47:4: C0116: Missing function or method docstring (missing-function-docstring)
+classes\lab8\plot_generator.py:58:4: C0116: Missing function or method docstring (missing-function-docstring)
+classes\lab8\plot_generator.py:68:4: C0116: Missing function or method docstring (missing-function-docstring)
+classes\lab8\plot_generator.py:81:4: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module classes.lab8.__init__
+classes\lab8\__init__.py:1:0: R0801: Similar lines in 2 files
+==classes.lab1.input_validator:[6:26]
+==shared.input_validator:[6:26]
+class InputValidator:
+    """
+    Input Validator Class.
+
+    This class provides methods for validating input data.
+    """
+    # Function to check if a data can be converted to a float. If data can we convert it to float
+    @staticmethod
+    def is_valid_float(data):
+        """
+        Check if data can be converted to a float.
+
+        :param data: The data to check.
+        :return: True if data can be converted to float, False otherwise.
+        """
+        try:
+            float(data)
+            return True
+        except ValueError:  # Error handling ValueError to check numbers
+            return False (duplicate-code)
+
+------------------------------------------------------------------
+Your code has been rated at 8.57/10 (previous run: 8.57/10, +0.00)
+

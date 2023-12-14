@@ -1,0 +1,214 @@
+[
+    {
+        "timestamp": "2023-12-14 00:13:43",
+        "user_input": "2023-01-01"
+    },
+    {
+        "timestamp": "2023-12-14 00:13:43",
+        "user_input": "2023-01-01 12:34:56"
+    },
+    {
+        "timestamp": "2023-12-14 00:13:43",
+        "user_input": "test@example.com"
+    },
+    {
+        "timestamp": "2023-12-14 00:13:43",
+        "user_input": "John Doe"
+    },
+    {
+        "timestamp": "2023-12-14 00:13:43",
+        "user_input": "(123) 456-7890"
+    },
+    {
+        "timestamp": "2023-12-14 00:13:43",
+        "user_input": "http://example.com"
+    },
+    {
+        "timestamp": "2023-12-14 00:21:53",
+        "user_input": "32132"
+    },
+    {
+        "timestamp": "2023-12-14 00:27:31",
+        "user_input": "321312"
+    },
+    {
+        "timestamp": "2023-12-14 00:27:35",
+        "user_input": "2023-01-01"
+    },
+    {
+        "timestamp": "2023-12-14 00:27:35",
+        "user_input": "2023-01-01 12:34:56"
+    },
+    {
+        "timestamp": "2023-12-14 00:27:35",
+        "user_input": "test@example.com"
+    },
+    {
+        "timestamp": "2023-12-14 00:27:35",
+        "user_input": "John Doe"
+    },
+    {
+        "timestamp": "2023-12-14 00:27:35",
+        "user_input": "(123) 456-7890"
+    },
+    {
+        "timestamp": "2023-12-14 00:27:35",
+        "user_input": "http://example.com"
+    },
+    {
+        "timestamp": "2023-12-14 00:30:30",
+        "user_input": "32131"
+    },
+    {
+        "timestamp": "2023-12-14 00:30:34",
+        "user_input": "2023-01-01"
+    },
+    {
+        "timestamp": "2023-12-14 00:30:34",
+        "user_input": "2023-01-01 12:34:56"
+    },
+    {
+        "timestamp": "2023-12-14 00:30:34",
+        "user_input": "test@example.com"
+    },
+    {
+        "timestamp": "2023-12-14 00:30:34",
+        "user_input": "John Doe"
+    },
+    {
+        "timestamp": "2023-12-14 00:30:34",
+        "user_input": "(123) 456-7890"
+    },
+    {
+        "timestamp": "2023-12-14 00:30:34",
+        "user_input": "http://example.com"
+    },
+    {
+        "timestamp": "2023-12-14 00:32:04",
+        "user_input": "2023-01-01"
+    },
+    {
+        "timestamp": "2023-12-14 00:32:04",
+        "user_input": "2023-01-01 12:34:56"
+    },
+    {
+        "timestamp": "2023-12-14 00:32:04",
+        "user_input": "test@example.com"
+    },
+    {
+        "timestamp": "2023-12-14 00:32:04",
+        "user_input": "John Doe"
+    },
+    {
+        "timestamp": "2023-12-14 00:32:04",
+        "user_input": "(123) 456-7890"
+    },
+    {
+        "timestamp": "2023-12-14 00:32:04",
+        "user_input": "http://example.com"
+    },
+    {
+        "timestamp": "2023-12-14 00:33:17",
+        "user_input": "2023-01-01"
+    },
+    {
+        "timestamp": "2023-12-14 00:33:17",
+        "user_input": "2023-01-01 12:34:56"
+    },
+    {
+        "timestamp": "2023-12-14 00:33:17",
+        "user_input": "test@example.com"
+    },
+    {
+        "timestamp": "2023-12-14 00:33:17",
+        "user_input": "John Doe"
+    },
+    {
+        "timestamp": "2023-12-14 00:33:17",
+        "user_input": "(123) 456-7890"
+    },
+    {
+        "timestamp": "2023-12-14 00:33:17",
+        "user_input": "http://example.com"
+    },
+    {
+        "timestamp": "2023-12-14 00:34:39",
+        "user_input": "2023-01-01"
+    },
+    {
+        "timestamp": "2023-12-14 00:34:39",
+        "user_input": "2023-01-01 12:34:56"
+    },
+    {
+        "timestamp": "2023-12-14 00:34:39",
+        "user_input": "test@example.com"
+    },
+    {
+        "timestamp": "2023-12-14 00:34:39",
+        "user_input": "John Doe"
+    },
+    {
+        "timestamp": "2023-12-14 00:34:39",
+        "user_input": "(123) 456-7890"
+    },
+    {
+        "timestamp": "2023-12-14 00:34:39",
+        "user_input": "http://example.com"
+    },
+    {
+        "timestamp": "2023-12-14 00:36:47",
+        "user_input": "2023-01-01"
+    },
+    {
+        "timestamp": "2023-12-14 00:36:47",
+        "user_input": "2023-01-01 12:34:56"
+    },
+    {
+        "timestamp": "2023-12-14 00:36:47",
+        "user_input": "test@example.com"
+    },
+    {
+        "timestamp": "2023-12-14 00:36:47",
+        "user_input": "John Doe"
+    },
+    {
+        "timestamp": "2023-12-14 00:36:47",
+        "user_input": "(123) 456-7890"
+    },
+    {
+        "timestamp": "2023-12-14 00:36:47",
+        "user_input": "http://example.com"
+    },
+    {
+        "timestamp": "2023-12-14 08:25:54",
+        "user_input": ""
+    },
+    {
+        "timestamp": "2023-12-14 08:25:56",
+        "user_input": "32"
+    },
+    {
+        "timestamp": "2023-12-14 08:26:01",
+        "user_input": "2023-01-01"
+    },
+    {
+        "timestamp": "2023-12-14 08:26:01",
+        "user_input": "2023-01-01 12:34:56"
+    },
+    {
+        "timestamp": "2023-12-14 08:26:01",
+        "user_input": "test@example.com"
+    },
+    {
+        "timestamp": "2023-12-14 08:26:01",
+        "user_input": "John Doe"
+    },
+    {
+        "timestamp": "2023-12-14 08:26:01",
+        "user_input": "(123) 456-7890"
+    },
+    {
+        "timestamp": "2023-12-14 08:26:01",
+        "user_input": "http://example.com"
+    }
+]

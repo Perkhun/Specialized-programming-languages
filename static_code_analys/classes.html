@@ -1,0 +1,214 @@
+<html>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+      <div class="mermaid">
+    
+        classDiagram
+          class APIHandler {
+            base_url : str
+            get_user_by_id(user_id)
+            get_users()
+          }
+          class ASCIIArtGenerator {
+            letters
+            generate_colored_ascii_art(text, letters, width, height, alignment)
+          }
+          class App {
+            data_visualizer
+            root
+            run()
+          }
+          class AsciiArtGenerator {
+            generate_ascii_art(text, font, color, special_symbols)
+            list_available_fonts()
+          }
+          class BaseLocalization {
+            BAN_FOR_ZERO : str
+            CONTINUE_CALCULATION : str
+            CONTINUE_CALCULATION_PROMPT : str
+            INVALID_INPUT : str
+            INVALID_OPERATOR : str
+            MEMORY_OPERATOR_HEADER : str
+            PROMPT_CHOOSE_OPERATOR : str
+            PROMPT_ENTER_DECIMAL_PLACES : str
+            PROMPT_ENTER_FIRST_NUMBER : str
+            PROMPT_ENTER_SECOND_NUMBER : str
+            RESULT_FORMAT : str
+          }
+          class Calculator {
+            calculation_records : list
+            display_history()
+            display_result(result, expression, decimal_places)
+            perform_calculation(number1, number2, operator)
+          }
+          class Calculator {
+            calculation_records : list
+            input_validator
+            localization
+            memory : NoneType
+            user_input_handler
+            get_continue_input()
+            get_number_from_user(prompt)
+            perform_calculation(number1, number2, operator, decimal_places)
+            run_calculator()
+            setup_logger()
+          }
+          class Colors {
+            name
+          }
+          class Cube {
+            change_offsets(horizontal_offset: int, vertical_offset: int) None
+            get_2d_representation() list
+            get_3d_representation(scale: float) str
+          }
+          class DataLoader {
+            load_csv(file_path)
+          }
+          class DataSaver {
+            save_data(users_data, file_format)
+            save_history_entry(user_input)
+          }
+          class DisplayHandler {
+            display_list(root, data, item_color, list_bg_color)
+            display_table(root, data, header_color, table_bg_color)
+            sort_treeview(tree, col, reverse)
+          }
+          class EnglishLocalization {
+            BAN_FOR_ZERO : str
+            CONTINUE_CALCULATION : str
+            CONTINUE_CALCULATION_PROMPT : str
+            INVALID_INPUT : str
+            INVALID_OPERATOR : str
+            MEMORY_OPERATOR_HEADER : str
+            PROMPT_CHOOSE_OPERATOR : str
+            PROMPT_ENTER_DECIMAL_PLACES : str
+            PROMPT_ENTER_FIRST_NUMBER : str
+            PROMPT_ENTER_SECOND_NUMBER : str
+            RESULT_FORMAT : str
+          }
+          class Figure3D {
+            change_character(character: str) None
+            change_color(color: Colors) None
+            get_2d_representation()* list
+            get_3d_representation(scale: float)* str
+            is_appropriate_character(character: str) bool
+          }
+          class FileExporter {
+            export_plot_as_image(figure)
+          }
+          class FileOperations {
+            save_representation(representation: str, representation_type: str, file_format: str, file_path: str)
+          }
+          class FileOperations {
+            load_history_from_file()
+            save_history_to_file(history_data)
+          }
+          class InputParser {
+            parse_user_input(user_input)
+          }
+          class InputValidator {
+            is_valid_float(data)
+          }
+          class InputValidator {
+            is_valid_float(data)
+          }
+          class LabFacade {
+            run_lab_1()
+            run_lab_2()
+            run_lab_3()
+            run_lab_4()
+            run_lab_5()
+            run_lab_6()
+            run_lab_7()
+            run_lab_8()
+          }
+          class MathOperations {
+            calculate(number1, number2, operator)
+          }
+          class MessageBoxWrapper {
+            show_error(title, message)
+          }
+          class PlotGenerator {
+            generate_bar_department_distribution(data, gui_instance)
+            generate_bar_department_salary(data, gui_instance)
+            generate_histogram_age(data, gui_instance)
+            generate_line_salary_time(data, gui_instance)
+            generate_multiple_subplots(data, gui_instance)
+            generate_pie_gender(data, gui_instance)
+            generate_scatter_experience_salary(data, gui_instance)
+          }
+          class Runnable {
+            run()*
+          }
+          class ScientificCalculator {
+            calculate_power(base, exponent)
+            calculate_square_root(number)
+          }
+          class TestAPIHandler {
+            test_display_list_empty_data()
+            test_display_list_success()
+            test_display_table_empty_data()
+            test_display_table_success()
+            test_get_user_by_id_failure(mock_show_error, mock_get)
+            test_get_user_by_id_success(mock_get)
+            test_get_users_failure(mock_show_error, mock_get)
+            test_get_users_success(mock_get)
+            test_load_history_from_file()
+            test_parse_date()
+            test_parse_datetime()
+            test_parse_email()
+            test_parse_full_name()
+            test_parse_phone_number()
+            test_parse_website()
+            test_save_history_entry_called(mock_save_history_entry)
+            test_save_representation(mock_showinfo, mock_file_dialog)
+          }
+          class TestCalculatorAddition {
+            calculator : Calculator
+            scientific_calculator : ScientificCalculator
+            setUp()
+            test_addition_mixed_numbers()
+            test_addition_negative_numbers()
+            test_addition_positive_numbers()
+            test_division_by_zero()
+            test_division_mixed_numbers()
+            test_division_negative_numbers()
+            test_division_positive_numbers()
+            test_multiplication_mixed_numbers()
+            test_multiplication_negative_numbers()
+            test_multiplication_positive_numbers()
+            test_multiplication_with_zero()
+            test_square_root_negative_number_error()
+            test_subtraction_mixed_numbers()
+            test_subtraction_negative_numbers()
+            test_subtraction_positive_numbers()
+          }
+          class UkrainianLocalization {
+            BAN_FOR_ZERO : str
+            CONTINUE_CALCULATION : str
+            CONTINUE_CALCULATION_PROMPT : str
+            INVALID_INPUT : str
+            INVALID_OPERATOR : str
+            MEMORY_OPERATOR_HEADER : str
+            PROMPT_CHOOSE_OPERATOR : str
+            PROMPT_ENTER_DECIMAL_PLACES : str
+            PROMPT_ENTER_FIRST_NUMBER : str
+            PROMPT_ENTER_SECOND_NUMBER : str
+            RESULT_FORMAT : str
+          }
+          class UserInputHandler {
+            get_integer_input(prompt)
+            get_yes_no_input(prompt)
+          }
+          class UserInputHandler {
+            localization : NoneType
+            get_operator_from_user()
+          }
+          EnglishLocalization --|> BaseLocalization
+          ScientificCalculator --|> Calculator
+          UkrainianLocalization --|> BaseLocalization
+          Colors --o Figure3D : _color
+  
+       </div>
+  </body>
+</html>
